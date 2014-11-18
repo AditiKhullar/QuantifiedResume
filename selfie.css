@@ -1,0 +1,52 @@
+.main{
+	position: absolute;
+	float: left;
+    top: 1pt;
+    left: 1pt;
+	width: 100%;
+	height: 100%;
+	background: rgb(249,249,249);	
+}
+.hat_ms{
+	position: absolute;
+	float: left;
+    top: 97pt;
+    left: 44%;
+	width: 12%;
+	height: 10%;
+}
+.hat_bs{
+	position: absolute;
+	float: left;
+    top: 150pt;
+    left: 44%;
+	width: 12%;
+	height: 10%;
+}
+p{
+	text-align: center;
+	color:white;
+    font-family:courier;
+    font-size:1.2em;
+}
+#human{
+	position: absolute;
+	float: left;
+    top: 200pt;
+    left: 37%;
+	width: 26%;
+}
+#bs{
+	position: absolute;
+	float: left;
+    top: 120pt;
+    left: 44%;
+	width: 12%;
+}
+#ms{
+	position: absolute;
+	float: left;
+    top: 60pt;
+    left: 42.9%;
+	width: 14%;
+}
