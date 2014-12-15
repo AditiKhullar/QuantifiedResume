@@ -1,0 +1,268 @@
+{
+  "person": {
+    "first-name": "Aditi",
+    "last-name": "Khullar",
+    "icon": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/000/20a/394/0bccd2f.jpg",
+    "education": {
+	    "total": "3",
+	    "edu": [
+	    {
+	    	"school": "University of Illinois at Urbana-Champaign",
+	    	"short": "UIUC",
+	    	"degree": "Master's degree, Computer Science",
+	    	"short2": "MS CS",
+	    	"time": "2014 – 2015 (expected)"	
+	    },
+	    {
+	    	"school": "The University of Chicago - Booth School of Business",
+	    	"short": "UC Booth",
+	    	"degree": "Business Scholar, Technology entrepreneurship",
+	    	"short2": "Bus. Sch.",
+	    	"time": "2012 – 2012"	
+	    },
+	    {
+	    	"school": "Delhi College of Engineering",
+	    	"short": "DTU",
+	    	"degree": "B.Tech, Computer Science Engineering",
+	    	"short2": "BS CSE",
+	    	"time": "2006 – 2010"
+	    }
+	    ]
+    },
+    "positions": {
+      "-total": "6",
+      "position": [
+        {
+          "id": "549106137",
+          "title": "Intern - Data Science",
+          "image": "https://media.licdn.com/media/p/7/000/1f0/23b/38e99cc.png",
+          "summary": "- Developed a robust and scalable scoring algorithm for 15000+ Influencers on the Sverve platform. Sverve Score is a number between 1-100 which determines how influential a blogger is in his/her domain which helps more than 4000 brands on the Sverev Platform to recognize the right fit for their social marketing campaigns. \n - Implemented a statistics based clustering algorithm to group Sverve influencers in sub domains based on their declared areas of interest using text mining and analysis. \n - Collaborated with executive and senior members of Product, Engineering and Business Development groups on identifying and translating business problems into technical projects.\n - Effectively communicated technical results to the executive management team.",
+          "start_date": {
+            "year": "2014",
+            "month": "6"
+          },
+          "end_date": {
+            "year": "2014",
+            "month": "8"
+          },
+          "is-current": "false",
+          "company": {
+            "id": "2903066",
+            "name": "Sverve"
+          }
+        },
+        {
+          "id": "532102805",
+          "title": "Graduate Research Assistant",
+          "image": "https://media.licdn.com/media/p/3/000/01b/1dd/3e44177.png",
+          "summary": "- Developed novel methods for clustering data by EM-based combinatorial optimization of objective functions involving higher-order statistical moments.\n - Incorporated these newly introduced clustering methods into an ensemble framework for returning ideal candidates for numerous surveys to have the highest probability of responses.\n - Designed and implemented highly-scalable numerical optimization algorithms in Java.",
+          "start_date": {
+            "year": "2014",
+            "month": "2"
+          },
+          "end_date": {
+            "year": "2014",
+            "month": "6"
+          },
+          "is-current": "false",
+          "company": {
+            "id": "2650",
+            "name": "University of Illinois at Urbana-Champaign"
+          }
+        },
+        {
+          "id": "312495621",
+          "title": "Senior Business Analyst",
+          "image": "https://media.licdn.com/media/p/2/005/017/386/0e63696.png",
+          "summary": "BETA LAUNCH\n - Designed and implemented the scoring algorithm, customizable for different user clusters, for VMock’s Freemium product-‘Automated Resume Feedback’, attracting more than 5000 users in the first week of launch\n Introduction video available http://www.youtube.com/watch?v=w_04K6EFdbo\n - Performed various aspects of regression analysis in R and Python including analyzing large data of customer behavior, customer footprint and customer retention.\n - Developed framework and material for VMock Prep Module, highest revenue generator for the company, averaging more than INR 1 Million revenue in the first two months of its launch.\n RELEASE 1.0\n - Improved the beta launch key word recognition algorithm, added capabilities for enhanced spell check, number recognition and contextual identification of key words by integrating natural language processing.\n - Worked closely with business to understand and capture requirements from the Times Jobs, the recent acquirer of  ‘Automated Resume Feedback’ product of VMock.\n - Provided technical leadership and guidance for the testing team in trouble-shooting technical issues, conducting training and bringing out relevant white papers and approach documents.",
+          "start_date": {
+            "year": "2012",
+            "month": "7"
+          },
+          "end_date": {
+            "year": "2013",
+            "month": "7"
+          },
+          "is-current": "false",
+          "company": {
+            "id": "2704809",
+            "name": "VMock Inc."
+          }
+        },
+        {
+          "id": "217232826",
+          "title": "Member Technical Staff",
+          "image": "https://media.licdn.com/media/p/2/000/019/195/0a52b6a.png",
+          "summary": "Oracle Identity Management, Release 12g/11GR2\n - Initiated automation of more than 1200 test case scenarios across 40 identity management systems saving at least 800 manual hours of work per week.\n - Tested the cloud-based capabilities of the new release, integrating features of both Sun’s Oracle Waveset and Oracle Identity management.\n Oracle Identity Management, Release 11G\n - Assumed responsibility of 12 out of 40 identity management systems, higher than team average of 4 out of 40; managed communication between France, Prague, US and India.\n - Developed a high performance data flow connectors – the source and destination adaptors, for the transfer of data between various identity managements systems and aggregators.\n - Acquired specialization in user provisioning and reconciliation while working on SQL DML and DDL\n Miscellaneous\n - Initiated and developed The Oracle Social Network for 600 Oracle employees; Trained a team of 6, including 2 senior members giving them administrator privileges for Oracle Social Network online",
+          "start_date": {
+            "year": "2010",
+            "month": "7"
+          },
+          "end_date": {
+            "year": "2012",
+            "month": "6"
+          },
+          "is-current": "false",
+          "company": {
+            "id": "1028",
+            "name": "Oracle"
+          }
+        },
+        {
+          "id": "217236548",
+          "title": "Summer Intern",
+          "image": "https://media.licdn.com/media/p/1/000/1c0/2ef/2042035.png",
+          "summary": "- Identified performance issues in smartphone launch time, graphics frames per second performance, and file transfer rate in Windows Mobile 7 OS and automated respective scenarios; launch time brought down from 240 seconds to 40 seconds, down to 1/6th of original.\n - Predominantly involved in emulator testing of Windows Mobile 5,6 and 7 and comparing performance with competitor data.\n - Received the Best Intern Presentation Award for final presentation",
+          "start_date": {
+            "year": "2009",
+            "month": "5"
+          },
+          "end_date": {
+            "year": "2009",
+            "month": "7"
+          },
+          "is-current": "false",
+          "company": {
+            "id": "1035",
+            "name": "Microsoft"
+          }
+        },
+        {
+          "id": "217236612",
+          "title": "Summer Intern",
+          "image": "https://media.licdn.com/media/p/3/000/014/1f0/2e939cc.png",
+          "summary": "- Developed a Human Resource management module for Navjyoti India, a CSC client, flexible enough to cater to 100,000 employee base.\n - Predominantly handled development and optimization of database design, tuning and maintenance.",
+          "start_date": {
+            "year": "2008",
+            "month": "5"
+          },
+          "end_date": {
+            "year": "2008",
+            "month": "7"
+          },
+          "is-current": "false",
+          "company": {
+            "id": "1120",
+            "name": "CSC"
+          }
+        }
+      ]
+    },
+    "skills": {
+      "-total": "19",
+      "skill": [
+        {
+          "id": "69",
+          "skill": { "name": "Java" }
+        },
+        {
+          "id": "70",
+          "skill": { "name": "Algorithms" }
+        },
+        {
+          "id": "71",
+          "skill": { "name": "Unix" }
+        },
+        {
+          "id": "72",
+          "skill": { "name": "Data Structures" }
+        },
+        {
+          "id": "73",
+          "skill": { "name": "SQL" }
+        },
+        {
+          "id": "74",
+          "skill": { "name": "C" }
+        },
+        {
+          "id": "75",
+          "skill": { "name": "Python" }
+        },
+        {
+          "id": "76",
+          "skill": { "name": "C++" }
+        },
+        {
+          "id": "77",
+          "skill": { "name": "Data Mining" }
+        },
+        {
+          "id": "78",
+          "skill": { "name": "Machine Learning" }
+        },
+        {
+          "id": "79",
+          "skill": { "name": "PL/SQL" }
+        },
+        {
+          "id": "80",
+          "skill": { "name": "Big Data" }
+        },
+        {
+          "id": "81",
+          "skill": { "name": "Eclipse" }
+        },
+        {
+          "id": "82",
+          "skill": { "name": "SOA" }
+        },
+        {
+          "id": "83",
+          "skill": { "name": "Product Management" }
+        },
+        {
+          "id": "84",
+          "skill": { "name": "Hadoop" }
+        },
+        {
+          "id": "85",
+          "skill": { "name": "Distributed Systems" }
+        },
+        {
+          "id": "86",
+          "skill": { "name": "Software Development" }
+        },
+        {
+          "id": "87",
+          "skill": { "name": "Business Analysis" }
+        }
+      ]
+    },
+    "courses": {
+      "-total": "6",
+      "course": [
+        {
+          "id": "24",
+          "name": "Advanced Data Minining",
+          "number": "CS 512"
+        },
+        {
+          "id": "25",
+          "name": "Advanced Data Management",
+          "number": "CS 511"
+        },
+        {
+          "id": "26",
+          "name": "Textual Information Systems",
+          "number": "CS 410"
+        },
+        {
+          "id": "105",
+          "name": "Machine Learning",
+          "number": "CS 446"
+        },
+        {
+          "id": "106",
+          "name": "Distributed Systems",
+          "number": "CS 425"
+        },
+        {
+          "id": "107",
+          "name": "Social Visualization",
+          "number": "CS 467"
+        }
+      ]
+    }
+  }
+}
