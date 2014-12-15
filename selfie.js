@@ -543,14 +543,6 @@ var post=d3.json("AditiJsonProfile.json", function(error, data) {
 			    	// // }
 // 				    	
 			    });
-			    function pausecomp(millis) 
-				{
-					var date = new Date();
-					var curDate = null;
-					
-					do { curDate = new Date(); } 
-					while(curDate-date < millis);
-				} 
 			
 			//original slider				
 			var axis = d3.svg.axis().orient("top").ticks(4);
