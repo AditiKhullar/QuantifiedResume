@@ -87,6 +87,22 @@ p{
     left: 43%;
 	width: 14%;
 }
+
+
+.line_axis{
+	stroke: black;
+	stroke-width: 5px;
+}
+
+.line_axis.industry{
+	stroke: blue;
+}
+
+.line_axis.education{
+	stroke: red;
+}
+
+
 #ms{
 	position: absolute;
 	float: left;

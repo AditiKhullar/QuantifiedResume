@@ -476,77 +476,21 @@ var post=d3.json("AditiJsonProfile.json", function(error, data) {
 			  .append("p").attr("id","time_p").append("span").text("Dec 2015");
 			var slider0=d3.select("body").append("div")
 			  .attr("id","slider");
-			d3.select("body").append("div").attr("id","play")
-			  .append("input")
-			  .attr("type","image")
-			  .attr("src",function(){
-			   	  return "./images/play.png";
-			  })
-			    .style("position","relative")
-			    .style("top","20pt")
-			    .style("left","-18pt")
-			    .attr("width","42pt")
-			    .attr("height","42pt")
-			    .on("click", function(){//click the play button
-			    	// d3.select("body").select("#slider").remove();
-			    	// d3.select("body").append("div")
-			  			// .attr("id","slider");
-			    	// d3.select('#slider').call(d3.slider().axis(true).min(2006).max(2015).step(1/12).value(2011).on("slide", function(evt, value) {
-      			// var mon2,year;
-      			// d3.select('#time_p').text(function(){
-      				// var num=value-Math.floor(value);
-      				// var nn=num.toFixed(6);
-      				// switch(nn){
-						// case "0.083333": mon2="Jan"; break;
-						// case "0.166667": mon2="Feb"; break;
-						// case "0.250000": mon2="Mar"; break;
-						// case "0.333333": mon2="Apr"; break;
-						// case "0.416667": mon2="May"; break;
-						// case "0.500000": mon2="Jun"; break;
-						// case "0.583333": mon2="Jul"; break;
-						// case "0.666667": mon2="Aug"; break;
-						// case "0.750000": mon2="Sept"; break;
-						// case "0.833333": mon2="Oct"; break;
-						// case "0.916667": mon2="Nov"; break;
-						// case "0.000000": mon2="Dec"; break;
-					// }
-      				// year=Math.floor(value);
-      				// return mon2+" "+year;
-      			// });
-      			// update(mon2, year);
-    		// }));
-			    	// //play timeline
-			    	// update("Jan","2011");
-			    	// // for(var y=2006;y<2015;y++){
-			    		// // var mon2;
-			    		// // for(var i=1;i<=12;i++){
-			    			// // switch(i){
-								// // case 1: mon2="Jan"; break;
-								// // case 2: mon2="Feb"; break;
-								// // case 3: mon2="Mar"; break;
-								// // case 4: mon2="Apr"; break;
-								// // case 5: mon2="May"; break;
-								// // case 6: mon2="Jun"; break;
-								// // case 7: mon2="Jul"; break;
-								// // case 8: mon2="Aug"; break;
-								// // case 9: mon2="Sept"; break;
-								// // case 10: mon2="Oct"; break;
-								// // case 11: mon2="Nov"; break;
-								// // case 12: mon2="Dec"; break;
-							// // }	
-							// // pausecomp(5000);
-							// // console.log("Before:" + y.toString());
-			    			// // update(mon2,y.toString());
-			    			// // console.log("After");
-// // 			    			
-			    		// // }
-			    	// // }
-// 				    	
-			    });
+
+			  
+			    function pausecomp(millis) 
+				{
+					var date = new Date();
+					var curDate = null;
+					
+					do { curDate = new Date(); } 
+					while(curDate-date < millis);
+				} 
 			
 			//original slider				
 			var axis = d3.svg.axis().orient("top").ticks(4);
-    		d3.select('#slider').call(d3.slider().axis(true).min(2006).max(2015).step(1/12).value(2015).on("slide", function(evt, value) {
+			var d_slider = d3.slider().axis(true).min(2006).max(2015).step(1/12).value(2015).on("slide", function(evt, value) {
+				console.log("SLIDER EVENT: ",evt, value);
       			var mon2,year;
       			d3.select('#time_p').text(function(){
       				var num=value-Math.floor(value);
@@ -569,7 +513,34 @@ var post=d3.json("AditiJsonProfile.json", function(error, data) {
       				return mon2+" "+year;
       			});
       			update(mon2, year);
-    		}));
+    		})
+    		d3.select('#slider').call(d_slider);
+			
+			var curr_year = 2006;
+			d3.select("body").append("div").attr("id","play")
+			  .append("input")
+			  .attr("type","image")
+			  .attr("src",function(){
+			   	  return "./images/play.png";
+			  })
+			    .style("position","relative")
+			    .style("top","20pt")
+			    .style("left","-18pt")
+			    .attr("width","42pt")
+			    .attr("height","42pt")
+			    .on("click", function(){
+					// Play button code
+					d_slider.value(curr_year);
+					intervalId = window.setInterval(function() {
+						if (curr_year > 2015) {window.clearInterval(intervalId)
+							curr_year = 2006;};
+						curr_year += 1;
+						d_slider.value(curr_year);
+						update("Jan",curr_year);
+						//slider.val(curr_year+1).change();
+						console.log("Updating year to: "+curr_year);
+					}, 2000);
+			    });
     		
     		
     		
