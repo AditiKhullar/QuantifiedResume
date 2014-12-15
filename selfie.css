@@ -10,7 +10,15 @@
 .hat_ms{
 	position: absolute;
 	float: left;
-    top: 97pt;
+    top: 47pt;
+    left: 44%;
+	width: 12%;
+	height: 10%;
+}
+.hat_sch{
+	position: absolute;
+	float: left;
+    top: 99pt;
     left: 44%;
 	width: 12%;
 	height: 10%;
@@ -36,6 +44,35 @@ p{
     left: 37%;
 	width: 26%;
 }
+#time_text{
+	position: absolute;
+	float: left;
+    top: 457pt;
+    left: 15.9%;
+	width: 200pt;
+	height: 50pt;
+}
+#time_p{
+	text-align: left;
+	color:black;
+    font-family:courier;
+    font-size:1.4em;
+}
+#play{
+	position: absolute;
+	float: left;
+    top: 470pt;
+    left: 13%;
+	width: 50pt;
+	height: 50pt;
+}
+#slider{
+	position: absolute;
+	float: left;
+    top: 500pt;
+    left: 16%;
+	width: 76%;
+}
 #bs{
 	position: absolute;
 	float: left;
@@ -43,10 +80,96 @@ p{
     left: 44%;
 	width: 12%;
 }
-#ms{
+#sch{
 	position: absolute;
 	float: left;
     top: 60pt;
-    left: 42.9%;
+    left: 43%;
 	width: 14%;
+}
+#ms{
+	position: absolute;
+	float: left;
+    top: 0pt;
+    left: 42%;
+	width: 16%;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: normal;
+  font-family: "sans-serif";
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+#tooltip0 {
+    position: absolute;
+    text-align: left;
+    width: 550px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(255,204,153);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none; 
+}
+#tooltip0.hidden {
+    display: none;
+}
+#tooltip0 p {
+	text-align: left;
+    margin: 0;
+    color:black;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+#tooltip1 {
+    position: absolute;
+    text-align: left;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(153,204,255);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none; 
+}
+#tooltip1.hidden {
+    display: none;
+}
+#tooltip1 p {
+	text-align: left;
+    margin: 0;
+    color:black;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
 }

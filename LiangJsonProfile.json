@@ -1,0 +1,155 @@
+{
+  "person": {
+    "first-name": "Liang",
+    "last-name": "Tao",
+    "positions": {
+      "-total": "4",
+      "position": [
+        {
+          "id": "514648557",
+          "title": "Research Assistant",
+          "summary": "1. A Publication Search Engine for Korean Scholar\n Build up the academic search engine for Korean Researchers.\n Offer searching feature of the shortest powerful path between different scholars.\n 2. Sina Weibo Importer for NodeXL/ConText\n Write one Weibo (Chinese Twitter) extension for NodeXL and ConText\n Output user's ego friendship and communication networks from Weibo APIs.\n Automatically visualize result on NodeXL/ConText",
+          "start-date": {
+            "year": "2014",
+            "month": "1"
+          },
+          "is-current": "true",
+          "company": {
+            "id": "2650",
+            "name": "University of Illinois at Urbana-Champaign"
+          }
+        },
+        {
+          "id": "603184638",
+          "title": "Software Developer",
+          "summary": "Big Data Demo: use Storm to build up a real-time Big Data analytic platform.\n - Collect real-time public stream tweets via Twitter API.\n - Extract Hashtags, calculate terms and sentiment score for each Hashtag.\n - Apply Redis and Spark to store data and build web applications.",
+          "start-date": {
+            "year": "2013",
+            "month": "9"
+          },
+          "end-date": {
+            "year": "2013",
+            "month": "11"
+          },
+          "is-current": "false",
+          "company": {
+            "id": "2650",
+            "name": "University of Illinois at Urbana-Champaign"
+          }
+        },
+        {
+          "id": "603187423",
+          "title": "Data Analyst",
+          "summary": "Healthcare Twitter Analysis\n - Apply Data Science skills to social media to get insights about healthcare issues.\n - Extracted hot topics from over 40,000 tweets and operate the sentiment analysis.\n - Extracted physical symptoms to different diseases.\n - Summarized suggested medicine to each of the specific diseases.",
+          "start-date": {
+            "year": "2013",
+            "month": "5"
+          },
+          "end-date": {
+            "year": "2013",
+            "month": "8"
+          },
+          "is-current": "false",
+          "company": { "name": "Open Source Project" }
+        },
+        {
+          "id": "603185832",
+          "title": "Software Developer",
+          "summary": "ASABE Robotic Competition: design Robots to pick up, haul, and then stack the hay bales within 5 minutes\n - Design Robots Mechanical Structure to implement tasks\n - Use Arduino to control Robot servos\n - Real-time monitor Robot activity from computer and cellphone\n - Won the runner-up award",
+          "start-date": {
+            "year": "2013",
+            "month": "3"
+          },
+          "end-date": {
+            "year": "2013",
+            "month": "7"
+          },
+          "is-current": "false",
+          "company": {
+            "id": "2650",
+            "name": "University of Illinois at Urbana-Champaign"
+          }
+        }
+      ]
+    },
+    "skills": {
+      "-total": "11",
+      "skill": [
+        {
+          "id": "55",
+          "skill": { "name": "Matlab" }
+        },
+        {
+          "id": "56",
+          "skill": { "name": "Java" }
+        },
+        {
+          "id": "57",
+          "skill": { "name": "Python" }
+        },
+        {
+          "id": "58",
+          "skill": { "name": "Data Mining" }
+        },
+        {
+          "id": "59",
+          "skill": { "name": "MySQL" }
+        },
+        {
+          "id": "60",
+          "skill": { "name": "MongoDB" }
+        },
+        {
+          "id": "61",
+          "skill": { "name": "Redis" }
+        },
+        {
+          "id": "62",
+          "skill": { "name": "Social Network Analysis" }
+        },
+        {
+          "id": "63",
+          "skill": { "name": "C#" }
+        },
+        {
+          "id": "64",
+          "skill": { "name": "Lucene Solr" }
+        },
+        {
+          "id": "65",
+          "skill": { "name": "JavaFX" }
+        }
+      ]
+    },
+    "courses": {
+      "-total": "5",
+      "course": [
+        {
+          "id": "19",
+          "name": "Machine Learning",
+          "number": "CS446"
+        },
+        {
+          "id": "20",
+          "name": "Social Visualization",
+          "number": "CS467"
+        },
+        {
+          "id": "21",
+          "name": "Computer Vision",
+          "number": "CS543"
+        },
+        {
+          "id": "22",
+          "name": "Network Analysis",
+          "number": "LIS590NA"
+        },
+        {
+          "id": "23",
+          "name": "Text Information Systems",
+          "number": "CS410"
+        }
+      ]
+    }
+  }
+}
