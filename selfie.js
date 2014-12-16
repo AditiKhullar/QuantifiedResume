@@ -485,18 +485,18 @@ var post=d3.json("AditiJsonProfile.json", function(error, data) {
 	      				var num=value-Math.floor(value);
 	      				var nn=num.toFixed(6);
 	      				switch(nn){
-							case "0.083333": mon2="Jan"; break;
-							case "0.166667": mon2="Feb"; break;
-							case "0.250000": mon2="Mar"; break;
-							case "0.333333": mon2="Apr"; break;
-							case "0.416667": mon2="May"; break;
-							case "0.500000": mon2="Jun"; break;
-							case "0.583333": mon2="Jul"; break;
-							case "0.666667": mon2="Aug"; break;
-							case "0.750000": mon2="Sept"; break;
-							case "0.833333": mon2="Oct"; break;
-							case "0.916667": mon2="Nov"; break;
-							case "0.000000": mon2="Dec"; break;
+							case "0.083333": mon2="Feb"; break;
+							case "0.166667": mon2="Mar"; break;
+							case "0.250000": mon2="Apr"; break;
+							case "0.333333": mon2="May"; break;
+							case "0.416667": mon2="Jun"; break;
+							case "0.500000": mon2="Jul"; break;
+							case "0.583333": mon2="Aug"; break;
+							case "0.666667": mon2="Sept"; break;
+							case "0.750000": mon2="Oct"; break;
+							case "0.833333": mon2="Nov"; break;
+							case "0.916667": mon2="Dec"; break;
+							case "0.000000": mon2="Jan"; break;
 						}
 	      				year=Math.floor(value);
 	      				return mon2+" "+year;
