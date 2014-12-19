@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+  <id>slvFnguYrB</id>
+  <first-name>Aditi</first-name>
+  <last-name>Khullar</last-name>
+  <skills total="19">
+    <skill>
+      <id>69</id>
+      <skill>
+        <name>Java</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>70</id>
+      <skill>
+        <name>Algorithms</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>71</id>
+      <skill>
+        <name>Unix</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>72</id>
+      <skill>
+        <name>Data Structures</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>73</id>
+      <skill>
+        <name>SQL</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>74</id>
+      <skill>
+        <name>C</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>75</id>
+      <skill>
+        <name>Python</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>76</id>
+      <skill>
+        <name>C++</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>77</id>
+      <skill>
+        <name>Data Mining</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>78</id>
+      <skill>
+        <name>Machine Learning</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>79</id>
+      <skill>
+        <name>PL/SQL</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>80</id>
+      <skill>
+        <name>Big Data</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>81</id>
+      <skill>
+        <name>Eclipse</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>82</id>
+      <skill>
+        <name>SOA</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>83</id>
+      <skill>
+        <name>Product Management</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>84</id>
+      <skill>
+        <name>Hadoop</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>85</id>
+      <skill>
+        <name>Distributed Systems</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>86</id>
+      <skill>
+        <name>Software Development</name>
+      </skill>
+    </skill>
+    <skill>
+      <id>87</id>
+      <skill>
+        <name>Business Analysis</name>
+      </skill>
+    </skill>
+  </skills>
+  <positions total="6">
+    <position>
+      <id>549106137</id>
+      <title>Intern - Data Science</title>
+      <summary>- Developed a robust and scalable scoring algorithm for 15000+ Influencers on the Sverve platform. Sverve Score is a number between 1-100 which determines how influential a blogger is in his/her domain which helps more than 4000 brands on the Sverev Platform to recognize the right fit for their social marketing campaigns. 
+
+- Implemented a statistics based clustering algorithm to group Sverve influencers in sub domains based on their declared areas of interest using text mining and analysis. 
+
+- Collaborated with executive and senior members of Product, Engineering and Business Development groups on identifying and translating business problems into technical projects.
+
+- Effectively communicated technical results to the executive management team.</summary>
+      <start-date>
+        <year>2014</year>
+        <month>6</month>
+      </start-date>
+      <end-date>
+        <year>2014</year>
+        <month>8</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>2903066</id>
+        <name>Sverve</name>
+      </company>
+    </position>
+    <position>
+      <id>532102805</id>
+      <title>Graduate Research Assistant</title>
+      <summary>- Developed novel methods for clustering data by EM-based combinatorial optimization of objective functions involving higher-order statistical moments.
+
+- Incorporated these newly introduced clustering methods into an ensemble framework for returning ideal candidates for numerous surveys to have the highest probability of responses.
+
+- Designed and implemented highly-scalable numerical optimization algorithms in Java.</summary>
+      <start-date>
+        <year>2014</year>
+        <month>2</month>
+      </start-date>
+      <end-date>
+        <year>2014</year>
+        <month>6</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>2650</id>
+        <name>University of Illinois at Urbana-Champaign</name>
+      </company>
+    </position>
+    <position>
+      <id>312495621</id>
+      <title>Senior Business Analyst</title>
+      <summary>BETA LAUNCH
+- Designed and implemented the scoring algorithm, customizable for different user clusters, for VMock’s Freemium product-‘Automated Resume Feedback’, attracting more than 5000 users in the first week of launch
+Introduction video available http://www.youtube.com/watch?v=w_04K6EFdbo
+
+- Performed various aspects of regression analysis in R and Python including analyzing large data of customer behavior, customer footprint and customer retention.
+
+- Developed framework and material for VMock Prep Module, highest revenue generator for the company, averaging more than INR 1 Million revenue in the first two months of its launch.
+
+RELEASE 1.0
+- Improved the beta launch key word recognition algorithm, added capabilities for enhanced spell check, number recognition and contextual identification of key words by integrating natural language processing.
+
+- Worked closely with business to understand and capture requirements from the Times Jobs, the recent acquirer of  ‘Automated Resume Feedback’ product of VMock.
+
+- Provided technical leadership and guidance for the testing team in trouble-shooting technical issues, conducting training and bringing out relevant white papers and approach documents.</summary>
+      <start-date>
+        <year>2012</year>
+        <month>7</month>
+      </start-date>
+      <end-date>
+        <year>2013</year>
+        <month>7</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>2704809</id>
+        <name>VMock Inc.</name>
+      </company>
+    </position>
+    <position>
+      <id>217232826</id>
+      <title>Member Technical Staff</title>
+      <summary>Oracle Identity Management, Release 12g/11GR2
+- Initiated automation of more than 1200 test case scenarios across 40 identity management systems saving at least 800 manual hours of work per week.
+
+- Tested the cloud-based capabilities of the new release, integrating features of both Sun’s Oracle Waveset and Oracle Identity management.
+
+Oracle Identity Management, Release 11G
+- Assumed responsibility of 12 out of 40 identity management systems, higher than team average of 4 out of 40; managed communication between France, Prague, US and India.
+
+- Developed a high performance data flow connectors – the source and destination adaptors, for the transfer of data between various identity managements systems and aggregators.
+
+- Acquired specialization in user provisioning and reconciliation while working on SQL DML and DDL
+
+Miscellaneous
+- Initiated and developed The Oracle Social Network for 600 Oracle employees; Trained a team of 6, including 2 senior members giving them administrator privileges for Oracle Social Network online</summary>
+      <start-date>
+        <year>2010</year>
+        <month>7</month>
+      </start-date>
+      <end-date>
+        <year>2012</year>
+        <month>6</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>1028</id>
+        <name>Oracle</name>
+      </company>
+    </position>
+    <position>
+      <id>217236548</id>
+      <title>Summer Intern</title>
+      <summary>- Identified performance issues in smartphone launch time, graphics frames per second performance, and file transfer rate in Windows Mobile 7 OS and automated respective scenarios; launch time brought down from 240 seconds to 40 seconds, down to 1/6th of original.
+
+- Predominantly involved in emulator testing of Windows Mobile 5,6 and 7 and comparing performance with competitor data.
+
+- Received the Best Intern Presentation Award for final presentation</summary>
+      <start-date>
+        <year>2009</year>
+        <month>5</month>
+      </start-date>
+      <end-date>
+        <year>2009</year>
+        <month>7</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>1035</id>
+        <name>Microsoft</name>
+      </company>
+    </position>
+    <position>
+      <id>217236612</id>
+      <title>Summer Intern</title>
+      <summary>- Developed a Human Resource management module for Navjyoti India, a CSC client, flexible enough to cater to 100,000 employee base.
+
+- Predominantly handled development and optimization of database design, tuning and maintenance.</summary>
+      <start-date>
+        <year>2008</year>
+        <month>5</month>
+      </start-date>
+      <end-date>
+        <year>2008</year>
+        <month>7</month>
+      </end-date>
+      <is-current>false</is-current>
+      <company>
+        <id>1120</id>
+        <name>CSC</name>
+      </company>
+    </position>
+  </positions>
+  <educations total="4">
+    <education>
+      <id>205432135</id>
+      <school-name>University of Illinois at Urbana-Champaign</school-name>
+      <degree>Master&#39;s degree</degree>
+      <field-of-study>Computer Science</field-of-study>
+      <start-date>
+        <year>2014</year>
+      </start-date>
+      <end-date>
+        <year>2015</year>
+      </end-date>
+    </education>
+    <education>
+      <id>123090188</id>
+      <school-name>The University of Chicago - Booth School of Business</school-name>
+      <degree>Business Scholar</degree>
+      <field-of-study>Technology entrepreneurship</field-of-study>
+      <start-date>
+        <year>2012</year>
+      </start-date>
+      <end-date>
+        <year>2012</year>
+      </end-date>
+    </education>
+    <education>
+      <id>82449497</id>
+      <school-name>Delhi College of Engineering</school-name>
+      <degree>B.Tech</degree>
+      <field-of-study>Computer Science Engineering</field-of-study>
+      <start-date>
+        <year>2006</year>
+      </start-date>
+      <end-date>
+        <year>2010</year>
+      </end-date>
+    </education>
+    <education>
+      <id>90515931</id>
+      <school-name>CFA L-2 Candidate</school-name>
+    </education>
+  </educations>
+</person>
+
